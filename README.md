@@ -28,13 +28,13 @@ pip install -r requirements.txt
 ```
 This will now install the required dependencies. This is a one time action.
 
-- Now, Create a new folder called `data` in the root of the project. This folder will contain all your csv dumps from PhpMyAdmin. Make sure to name the file with the table name, case sensitive. Eg.-
+- Now, Create a new folder called `data` in the root of the project. This folder will contain all your csv dumps from PhpMyAdmin/any other export. Make sure to name the file with the table name, case sensitive. Eg.-
 ```
 data
-├── hotel_city_master.csv
-├── amenities_master.csv
-├── cancellation_reasons.csv
-└── error_handler_mapping.csv
+├── comments.csv
+├── posts.csv
+├── users.csv
+└── errors.csv
 ```
 
 - At this point, your folder set up is done. One last configurational change is to open the config file at `src/config.py`. Here, you can add the below things:
