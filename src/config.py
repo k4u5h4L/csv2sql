@@ -1,11 +1,11 @@
 config = [
     {
-        'table_name': 'table_name',
+        'table_name': 'posts',
         'ignore_columns': ['id', 'created_at', 'updated_at'],
         'substitute_column': {}
     },
     {
-        'table_name': 'amenities_master',
+        'table_name': 'users',
         'ignore_columns': ['id', 'created_at', 'updated_at'],
         'substitute_column': {
             'user_id': {
